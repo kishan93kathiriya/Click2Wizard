@@ -1,0 +1,60 @@
+.field
+{
+	clear:both;
+	float: left;
+	font-size:22px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.input
+{
+	width: 200px;
+	float: right;
+	margin-right: 20px;
+	font-family: "lato light", "HelveticaNeue-Light",
+		"Helvetica Neuse Light", "Helvetica Neue", Helvetica, Arial,
+		"Lucida Grande", sans-serif;
+	font-size: 22px;
+	color: #4a4742; /*9d9e9e*/
+	border-top: 0px solid #fff;
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+	border-bottom: 1px solid #e2e2e2;
+	border-radius: 0px;
+}
+.input:focus
+{
+	/* color: #28aacc; */
+	border-bottom: 1px solid #28aacc;
+	outline: none;
+}
+
+.login-submit {
+	display: block;
+	/* float:right; */
+	width: 100px;
+	height: 40px;
+	font-family: "lato light", "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #797979;
+	border-radius: 10px;
+	border-bottom: 2px solid #e2e2e2;
+	border-right: 2px solid #e2e2e2;
+	background: url(../images/submit.png) no-repeat;
+	text-decoration: none;
+	/* margin-top:-95px; */
+	outline: none;
+}
+
+.login-submit:hover {
+	background: url(../images/submit_hover.png) no-repeat;
+	text-decoration: none;
+	outline: none;
+	color: #4a4742;
+	border-bottom: 2px solid #28aacc;
+	border-right: 2px solid #28aacc;
+}

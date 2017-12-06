@@ -1,0 +1,138 @@
+body
+{
+	background-image: url("../img/3.png");	 
+	background-size:cover; 
+}
+.bg1
+{
+	
+}
+
+.top
+{
+	height: 70px;
+	font-size:50px;
+	text-align:center;
+	box-shadow:0px 2px 8px black;
+	background-color: #565656;
+  	
+  	text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text; 
+}
+
+.c2w
+{
+	text-decoration: none;
+	color: transparent;
+}
+.c2w:hover
+{
+	text-decoration:none;
+	color: transparent;
+}
+
+.divider
+{
+	height: 75px;
+}
+
+.columns
+{
+	padding:20px;
+	text-align:center;
+}
+
+.a1
+{
+	
+}
+
+.a2
+{
+	opacity: 0.5;
+	color: 
+}
+
+.button
+{
+	padding:5px;
+	background-color: #0dbdb7;
+	box-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+	text-decoration: none;
+	color:white;
+	font-size:20px;
+	border-radius:5px; 
+}
+.button:hover
+{
+	box-shadow: 0 0 0 rgba(255, 255, 255, 0.5) inset;
+	background-color: #08dbe8;
+	text-decoration: none;
+	color:white;
+}
+
+.login
+{
+	/* height: 100px; */
+	padding: 10px;
+}
+
+.field
+{
+	/* float:right; */
+	background-color: rgba(255,255,255,0.3);
+	font-size:20px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+.input
+{
+	width: 200px;
+	font-family: "lato light", "HelveticaNeue-Light",
+		"Helvetica Neuse Light", "Helvetica Neue", Helvetica, Arial,
+		"Lucida Grande", sans-serif;
+	font-size: 20px;
+	color: #000; /*9d9e9e*/
+	border-top: 0px solid #fff;
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+	border-bottom: 1px solid #e2e2e2;
+	border-radius: 0px;
+	background: none;
+}
+.input:focus
+{
+	/* color: #28aacc; */
+	border-bottom: 1px solid #28aacc;
+	outline: none;
+}
+
+.login-submit {
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	color: #797979;
+	border-radius: 10px;
+	background-color: white;
+}
+.login-submit:hover {
+	color: #4a4742;
+	border-bottom: 2px solid #28aacc;
+	border-right: 2px solid #28aacc;
+}
+
+@media (max-width: 430px) {
+	.top
+	{
+		height: 70px;
+		font-size:40px;
+	}
+	
+	
+}
+
